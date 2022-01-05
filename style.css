@@ -677,9 +677,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.4em;
 }
-
+cite{
+    font-size: 0.8em;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -701,11 +703,11 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 40px auto;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2em;
     line-height: 1.4em;
 }
 
@@ -729,7 +731,6 @@ h1 {
 h4 {
     color: #333333!important;
 }
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -1028,7 +1029,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1038,5 +1039,10 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
     }
 }
